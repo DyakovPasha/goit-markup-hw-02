@@ -1,13 +1,141 @@
-.description{
-        position: absolute;
-        width: 1px;
-        height: 1px;
-        margin: -1px;
-        border: 0;
-        padding: 0;
+:root {
+    --background-color: #E5E5E5;
+    --background-color-dark:#2F303A;
+    --color-acent: #2196F3;
+    --color-txt-dark:#212121;
+    --color-txt: #FFFFFF;
+    --color-txt-cont:#757575;
+    --background-color-team:#F5F4FA;
 
-        white-space: nowrap;
-        clip-path: inset(100%);
-        clip: rect(0 0 0 0);
-        overflow: hidden;
-    }
+
+}
+body {
+        font-family: 'Roboto', sans-serif;
+        color: #212121;}
+                li {
+                    list-style-type: none;}
+
+        
+   /* hedear */
+
+   header{background-color: var(--color-txt);}
+   .menu-nav {
+       font-weight: 500;
+       font-size: 14px;
+       line-height: 1.14;
+    letter-spacing: 0.02em;
+   }
+   .contacts > li >a {font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.02em;
+    color: var(--color-txt-cont);}
+   .contacts :hover, .contacts :focus {
+    color: var(--color-acent)
+}
+
+   a {
+    text-decoration-line: none;;
+       
+   }
+
+   .menu-nav :hover {
+       color:var(--color-acent)
+   }
+   .menu-nav :focus {
+       color:var(--color-acent)
+   }
+
+ 
+.logo {
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 1.2;
+    letter-spacing: 0.03em;
+  }
+
+.logo-web {
+    color: var(--color-acent);
+}
+
+/* main */
+.main-button {
+    background-color:var(--color-acent) ;
+    color: var(--color-txt);
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 1.9;
+    letter-spacing: 0.06em;
+}
+
+  .title { background-color: var(--background-color-dark);
+}
+
+.main-title {font-weight: 900;
+    font-size: 44px;
+    line-height: 1.36;
+    color: var(--color-txt);}
+    .button-order {
+        font-weight: 700;
+        font-size: 16px;
+        line-height: 1.9;
+        color: var(--color-txt)}
+button {cursor: pointer;}
+.benefits>ul>li>h2 {font-weight: 700;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+}
+.benefits>ul>li>p {font-weight: 400;
+    font-size: 14px;
+    line-height: 1.7;
+    letter-spacing: 0.03em;
+color: var(--color-txt-cont);}
+
+.caption {
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.16;
+    letter-spacing: 0.03em;}
+
+    .team {background-color:var(--background-color-team) ;}
+.team > h2 {font-weight: 700;
+    font-size: 36px;
+    line-height: 1.16;
+    letter-spacing: 0.03em;}
+    .team >ul>li>h3 {font-weight: 500;
+        font-size: 16px;
+        line-height:1.9;
+        letter-spacing: 0.03em;}
+    .team>ul>li>p {font-weight: 400;
+        font-size: 16px;
+        line-height: 1.9;
+        letter-spacing: 0.03em;
+        color:var(--color-txt-cont);}
+/* footer */
+
+footer {background-color: var(--background-color-dark);}
+.contacts-footer >ul > li > a {color: var(--color-txt-cont);
+    font-style: normal;
+        font-size: 14px;
+        line-height: 1.7;
+        letter-spacing: 0.03em;
+}
+
+.contacts-footer :hover,
+.contacts-footer :focus {
+    color: var(--color-acent)}
+
+.contacts-footer-map{
+    color: var(--color-txt);
+    font-style: normal;
+    font-size: 14px;
+    line-height: 1.7;
+    letter-spacing: 0.03em;}
+    .logo-footer {color: var(--color-txt);}
+
+    
