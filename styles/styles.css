@@ -6,9 +6,8 @@
     --color-txt: #FFFFFF;
     --color-txt-cont:#757575;
     --background-color-team:#F5F4FA;
-
-
 }
+
 body {
         font-family: 'Roboto', sans-serif;
         color: #212121;}
@@ -88,7 +87,9 @@ body {
 .main-title {font-weight: 900;
     font-size: 44px;
     line-height: 1.36;
+    letter-spacing: 0.06em;
     color: var(--color-txt);}
+
     .main-button {font-family: 'Roboto';
         font-weight: 700;
         font-size: 16px;
