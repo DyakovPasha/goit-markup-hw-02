@@ -40,17 +40,13 @@ body {
        
    }
 
-   .menu-nav :hover {
+   .menu-nav :hover,.menu-nav :focus {
        color:var(--color-acent)
    }
-   .menu-nav :focus {
-       color:var(--color-acent)
-   }
-
+ 
  
 .logo {
     font-family: 'Raleway';
-    font-style: normal;
     font-weight: 700;
     font-size: 26px;
     line-height: 1.2;
@@ -62,14 +58,29 @@ body {
 }
 
 /* main */
-.main-button {
-    background-color:var(--color-acent) ;
-    color: var(--color-txt);
-    font-weight: 700;
+
+.main-portfolio {background-color:var(--background-color);}
+  .filter >li>button {font-family: 'Roboto';
+    font-weight: 500;
     font-size: 16px;
+    line-height: 1.6;
+    color: var(--color-txt-dark);
+    background-color:var(--background-color-team);
+    letter-spacing: 0.03em;}
+
+        .filter >li>button:hover, .filter>li>button:focus {color:var(--color-txt) ;
+        background-color:var(--color-acent);}
+
+ .portfolio >li>h1 {font-weight: 700;
+    font-size: 18px;
+    line-height: 2;
+ letter-spacing: 0.06em}
+.portfolio >li>p {font-size: 16px;
     line-height: 1.9;
-    letter-spacing: 0.06em;
-}
+     letter-spacing: 0.03em;
+    color:var(--color-txt-cont);}
+
+
 
   .title { background-color: var(--background-color-dark);
 }
@@ -78,11 +89,12 @@ body {
     font-size: 44px;
     line-height: 1.36;
     color: var(--color-txt);}
-    .button-order {
+    .main-button {font-family: 'Roboto';
         font-weight: 700;
         font-size: 16px;
         line-height: 1.9;
-        color: var(--color-txt)}
+        color: var(--color-txt);
+    background-color:var(--color-acent);}
 button {cursor: pointer;}
 .benefits>ul>li>h2 {font-weight: 700;
     font-size: 14px;
@@ -90,7 +102,7 @@ button {cursor: pointer;}
     letter-spacing: 0.03em;
     text-transform: uppercase;
 }
-.benefits>ul>li>p {font-weight: 400;
+.benefits>ul>li>p {
     font-size: 14px;
     line-height: 1.7;
     letter-spacing: 0.03em;
@@ -111,7 +123,7 @@ color: var(--color-txt-cont);}
         font-size: 16px;
         line-height:1.9;
         letter-spacing: 0.03em;}
-    .team>ul>li>p {font-weight: 400;
+    .team>ul>li>p {
         font-size: 16px;
         line-height: 1.9;
         letter-spacing: 0.03em;
