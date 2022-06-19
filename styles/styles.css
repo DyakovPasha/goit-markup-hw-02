@@ -6,51 +6,58 @@
     --color-txt: #FFFFFF;
     --color-txt-cont:#757575;
     --background-color-team:#F5F4FA;
+    --acolor: rgba(255, 255, 255, 0.6);
 }
 
 body {
-        font-family: 'Roboto', sans-serif;
-        color: #212121;}
-                li {
-                    list-style-type: none;}
-
-        
-   /* hedear */
-
-   header{background-color: var(--color-txt);}
-   .menu-nav {
-       font-weight: 500;
-       font-size: 14px;
-       line-height: 1.14;
-    letter-spacing: 0.02em;
-   }
-   .contacts > li >a {font-style: normal;
-    font-weight: 500;
+    font-family: 'Roboto', sans-serif;
     font-size: 14px;
-    line-height: 1.14;
-    letter-spacing: 0.02em;
-    color: var(--color-txt-cont);}
-   .contacts :hover, .contacts :focus {
-    color: var(--color-acent)
+    letter-spacing: 0.03em;
+    background-color:var(--color-txt);
+    color: var(--color-txt-dark);
 }
 
-   a {
-    text-decoration-line: none;;
-       
-   }
+li {list-style-type: none;}
 
-   .menu-nav :hover,.menu-nav :focus {
-       color:var(--color-acent)
-   }
+   /* hedear */
+
+header
+    {background-color: var(--color-txt);
+}
+
+.menu-nav 
+    {font-weight: 500;
+    line-height: 1.14;
+    letter-spacing: 0.02em;
+}
+
+.contacts > li >a 
+    {font-style: normal;
+    font-weight: 500;
+    line-height: 1.14;
+    letter-spacing: 0.02em;
+    color: var(--color-txt-cont);
+}
+
+.contacts :hover, .contacts :focus 
+    {color: var(--color-acent)
+}
+
+a 
+   {text-decoration-line: none;
+}
+
+.menu-nav :hover,.menu-nav :focus 
+   {color:var(--color-acent)
+}
  
  
 .logo {
-    font-family: 'Raleway';
+    font-family: 'Raleway',sans-serif;
     font-weight: 700;
     font-size: 26px;
     line-height: 1.2;
-    letter-spacing: 0.03em;
-  }
+}
 
 .logo-web {
     color: var(--color-acent);
@@ -58,97 +65,118 @@ body {
 
 /* main */
 
-.main-portfolio {background-color:var(--background-color);}
-  .filter >li>button {font-family: 'Roboto';
+.filter >li>button {font-family: 'Roboto';
     font-weight: 500;
     font-size: 16px;
     line-height: 1.6;
     color: var(--color-txt-dark);
     background-color:var(--background-color-team);
-    letter-spacing: 0.03em;}
+    }
 
-        .filter >li>button:hover, .filter>li>button:focus {color:var(--color-txt) ;
-        background-color:var(--color-acent);}
+.filter >li>button:hover, .filter>li>button:focus 
+    {color:var(--color-txt) ;
+    background-color:var(--color-acent);}
 
- .portfolio >li>h1 {font-weight: 700;
+.portfolio>li>h2 
+    {font-weight: 700;
     font-size: 18px;
     line-height: 2;
- letter-spacing: 0.06em}
-.portfolio >li>p {font-size: 16px;
-    line-height: 1.9;
-     letter-spacing: 0.03em;
-    color:var(--color-txt-cont);}
-
-
-
-  .title { background-color: var(--background-color-dark);
+    letter-spacing: 0.06em;
 }
 
-.main-title {font-weight: 900;
+.portfolio >li>p 
+    {font-size: 16px;
+    line-height: 1.9;
+    color:var(--color-txt-cont);}
+
+.title
+    { background-color: var(--background-color-dark);
+}
+
+.main-title
+    {font-weight: 900;
     font-size: 44px;
     line-height: 1.36;
     letter-spacing: 0.06em;
-    color: var(--color-txt);}
+    color: var(--color-txt);
+text-transform: uppercase;
+}
 
-    .main-button {font-family: 'Roboto';
-        font-weight: 700;
-        font-size: 16px;
-        line-height: 1.9;
-        color: var(--color-txt);
-    background-color:var(--color-acent);}
-button {cursor: pointer;}
-.benefits>ul>li>h2 {font-weight: 700;
+.main-button 
+    {font-family: 'Roboto';
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 1.9;
+    color: var(--color-txt);
+    background-color:var(--color-acent);
+}
+
+button 
+    {cursor: pointer;
+}
+
+.benefits>ul>li>h2 
+    {font-weight: 700;
     font-size: 14px;
     line-height: 1.14;
-    letter-spacing: 0.03em;
     text-transform: uppercase;
 }
-.benefits>ul>li>p {
-    font-size: 14px;
-    line-height: 1.7;
-    letter-spacing: 0.03em;
-color: var(--color-txt-cont);}
+.benefits>ul>li>p 
+    {line-height: 1.7;
+    color: var(--color-txt-cont);
+}
 
 .caption {
     font-weight: 700;
     font-size: 36px;
     line-height: 1.16;
-    letter-spacing: 0.03em;}
+}
 
-    .team {background-color:var(--background-color-team) ;}
-.team > h2 {font-weight: 700;
+.team
+    {background-color:var(--background-color-team) ;
+}
+
+.team > h2 
+    {font-weight: 700;
     font-size: 36px;
     line-height: 1.16;
-    letter-spacing: 0.03em;}
-    .team >ul>li>h3 {font-weight: 500;
-        font-size: 16px;
-        line-height:1.9;
-        letter-spacing: 0.03em;}
-    .team>ul>li>p {
-        font-size: 16px;
-        line-height: 1.9;
-        letter-spacing: 0.03em;
-        color:var(--color-txt-cont);}
+}
+.team >ul>li>h3
+    {font-weight: 500;
+    font-size: 16px;
+    line-height:1.18;
+}
+.team >ul>li>p 
+    {font-size: 16px;
+    line-height: 1.18;
+    color:var(--color-txt-cont);
+}
+
 /* footer */
 
-footer {background-color: var(--background-color-dark);}
-.contacts-footer >ul > li > a {color: var(--color-txt-cont);
+footer 
+    {background-color: var(--background-color-dark);
+}
+.contacts-footer 
+    {color:var(--acolor) ;
     font-style: normal;
-        font-size: 14px;
-        line-height: 1.7;
-        letter-spacing: 0.03em;
+    line-height: 1.18;
+    letter-spacing: 0.03em;
 }
 
 .contacts-footer :hover,
-.contacts-footer :focus {
-    color: var(--color-acent)}
+.contacts-footer :focus 
+    {color: var(--color-acent)}
 
-.contacts-footer-map{
-    color: var(--color-txt);
+.contacts-footer-map
+    {color: var(--color-txt);
     font-style: normal;
-    font-size: 14px;
-    line-height: 1.7;
-    letter-spacing: 0.03em;}
-    .logo-footer {color: var(--color-txt);}
+    line-height: 1.18;
+    letter-spacing: 0.03em;
+}
+
+.logo-footer 
+    {color: var(--color-txt);
+}
 
     
