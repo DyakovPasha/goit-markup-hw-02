@@ -25,10 +25,18 @@ header
     {background-color: var(--color-txt);
 }
 
+.menu-nav>li>a 
+    {color: #212121;
+}
+
+.menu-nav .current
+{color: var(--color-acent);}
+
 .menu-nav 
     {font-weight: 500;
     line-height: 1.14;
     letter-spacing: 0.02em;
+    
 }
 
 .contacts > li >a 
@@ -45,6 +53,7 @@ header
 
 a 
    {text-decoration-line: none;
+    
 }
 
 .menu-nav :hover,.menu-nav :focus 
@@ -57,6 +66,7 @@ a
     font-weight: 700;
     font-size: 26px;
     line-height: 1.2;
+    color: var(--color-txt-dark);
 }
 
 .logo-web {
